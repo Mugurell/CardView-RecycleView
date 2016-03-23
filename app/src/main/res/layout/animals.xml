@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:id="@+id/animals_CV"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="7dp">
+
+    <LinearLayout
+        android:id="@+id/animals_LL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/animal_image"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/parrot"
+            android:layout_gravity="center"
+            android:layout_marginEnd="15dp"/>
+
+        <TextView
+            android:id="@+id/animal_description"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            tools:text="Duck is the common name for a large number of species in the waterfowl
+                    family Anatidae, which also includes swans and geese.
+                    Ducks are mostly aquatic birds, mostly smaller than the swans and geese,
+                    and may be found in both fresh water and sea water."
+            android:text="Duck is the common name for a large number of species in the waterfowl
+            family Anatidae, which also includes swans and geese. Ducks are mostly aquatic birds,
+             mostly smaller than the swans and geese, and may be found in both fresh water and
+             sea water."
+            android:textSize="12sp"
+            android:textScaleX="1.2"
+            android:layout_gravity="center"
+            android:layout_toRightOf="@id/animal_image"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
